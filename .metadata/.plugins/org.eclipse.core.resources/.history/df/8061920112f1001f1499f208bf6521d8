@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : Polinomio.c
+ Author      : Renato
+ Version     :
+ Copyright   : Polinomio
+ Description : Lista para Polinomio
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Polinomio Polinomio;
+
+struct Polinomio {
+	int coeficiente;
+	int expoente;
+	Polinomio *prox;
+};
+
+Polinomio* inicializa();
+Polinomio* insere();
+void imprime();
+Polinomio* ordena();
+
+int main(void) {
+
+	return EXIT_SUCCESS;
+}

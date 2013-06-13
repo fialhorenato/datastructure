@@ -1,0 +1,88 @@
+/*
+ ============================================================================
+ Name        : Polinomio.c
+ Author      : Renato
+ Version     :
+ Copyright   : Polinomio
+ Description : Lista para Polinomio
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Polinomio Polinomio;
+
+struct Polinomio {
+	int coeficiente;
+	int expoente;
+	Polinomio *prox;
+};
+
+Polinomio* inicializa();
+Polinomio* insere();
+void imprime(Polinomio *lista);
+void ordena(Polinomio *lista);
+
+int main(void) {
+	Polinomio *listac;
+	puts("[I]nicializa \n I[n]sere \n I[m]prime \n [O]rdena \n [S]air");
+	char op = getchar();
+	switch (op) {
+		case 'O':
+			ordena(listac);
+			break;
+
+		case 'o':
+			ordena(listac);
+			break;
+
+		case 'N':
+			listac = insere();
+			break;
+
+		case 'n':
+			listac = insere();
+			break;
+
+		case 'I' :
+			listac = inicializa();
+			break;
+
+		case 'i' :
+			listac = inicializa();
+			break;
+
+		case 'M':
+			imprime(listac);
+			break;
+
+		case 'm':
+			imprime(listac);
+			break;
+
+		case 'S':
+			break;
+
+		case 's':
+			break;
+
+		default:
+			puts ("Digite novamente!");
+			break;
+	}
+	return EXIT_SUCCESS;
+}
+
+Polinomio* inicializa () {
+	return NULL;
+}
+
+Polinomio* insere() {
+	Polinomio *dado = malloc(sizeof(Polinomio));
+	puts ("Digite o coeficiente: ");
+	scanf ("%d", dado -> coeficiente);
+	puts ("Digite o expoente: ");
+	scanf ("%d", dado -> expoente);
+	return dado;
+}

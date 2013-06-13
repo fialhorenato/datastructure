@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0-b105",1288180532124
+java.specification.name,sysinfo,,,"Java Platform API Specification",1288180532124
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1288180532124
+java.specification.version,sysinfo,,,"1.6",1288180532124
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1288180532124
+java.version,sysinfo,,,"1.6.0",1288180532124
+java.vm.info,sysinfo,,,"mixed mode",1288180532124
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1288180532124
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1288180532124
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1288180532124
+java.vm.specification.version,sysinfo,,,"1.0",1288180532124
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1288180532124
+java.vm.version,sysinfo,,,"1.6.0-b105",1288180532124
+started,bundle,org.eclipse.cdt.make.core,6.0.0.200906161748,"org.eclipse.cdt.make.core",1288180594202
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.103.v200905151848,"org.eclipse.wst.ws.service.policy",1288180595218
+started,bundle,org.eclipse.wst.command.env,1.0.408.v200903110045,"org.eclipse.wst.command.env",1288180595281
+started,bundle,org.eclipse.wst.ws,1.1.103.v200903111822,"org.eclipse.wst.ws",1288180595281
+started,bundle,org.eclipse.search,3.5.0.v20090526-2000,"org.eclipse.search",1288180595312
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1288180595656
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1288180596812
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1288180601859
+started,bundle,org.eclipse.cdt.managedbuilder.core,6.0.0.200906161748,"org.eclipse.cdt.managedbuilder.core",1288180601984
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1288180602124
+started,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,5.0.100.200906161748,"org.eclipse.cdt.managedbuilder.gnu.ui",1288180602140
+started,bundle,org.eclipse.debug.core,3.5.0.v20090526-1600,"org.eclipse.debug.core",1288180602156

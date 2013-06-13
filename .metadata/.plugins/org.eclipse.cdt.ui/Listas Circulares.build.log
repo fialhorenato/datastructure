@@ -1,0 +1,11 @@
+
+**** Rebuild of configuration Debug for project Listas Circulares ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -oMain.o ..\Main.c
+..\Main.c:88: error: conflicting types for 'remove'
+C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdio.h:174: error: previous declaration of 'remove' was here
+..\Main.c:88: error: conflicting types for 'remove'
+C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdio.h:174: error: previous declaration of 'remove' was here
+Build error occurred, build is stopped
+Time consumed: 2694  ms.  
