@@ -1,63 +1,27 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+*target*
+*.jar
+*.war
+*.ear
+*.class
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+# eclipse specific git ignore
 *.pydevproject
+.project
 .metadata
-.gradle
-bin/
-tmp/
+bin/**
+tmp/**
+tmp/**/*
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
+.classpath
 .settings/
 .loadpath
 
 # External tool builders
- .externalToolBuilders/
+.externalToolBuilders/
 
-# # Locally stored "Eclipse launch configurations"
+# Locally stored "Eclipse launch configurations"
 *.launch
-
-# # CDT-specific
- .cproject
-
-# # PDT-specific
- .buildpath
-
-# sbteclipse plugin 
- .target
-
- # TeXlipse plugin
- .texlipse
-
-# Metadata
-.metadata
