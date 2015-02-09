@@ -1,4 +1,5 @@
-## Estrutura de dados 2
+## Data Structure
 ===========================
 
-Repositório de atividades e trabalhos da disciplina Estrutura de Dados 2 da FUMEC.
+Repository of homework and assignments of the Data Structures 2 course in FUMEC.
+
